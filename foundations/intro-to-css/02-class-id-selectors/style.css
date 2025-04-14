@@ -21,7 +21,7 @@ Quick tip: in VS Code, you can change which format colors are displayed in RGB, 
 
 .odd {
   background-color: hsl(313, 88%, 90%);
-  font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+  font-family: 'Verdana', 'DejaVu Sans', sans-serif;
 }
 
 
@@ -30,13 +30,12 @@ Quick tip: in VS Code, you can change which format colors are displayed in RGB, 
   font-size: 36px;
 }
 
-#three {
+.font-size {
   font-size: 24px;  
 }
+
 #four {
   background-color: hsl(120, 84%, 49%);
-  font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  font-size: 24px;
 }
 
